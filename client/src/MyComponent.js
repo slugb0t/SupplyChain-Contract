@@ -7,7 +7,7 @@ export default ({ drizzle, drizzleState }) => {
     return (
         <div className="App">
             <div>
-                <h1>PUTA MADRE</h1>
+                <h1>Supply Chain</h1>
             </div>
 
             <div>
@@ -30,9 +30,19 @@ export default ({ drizzle, drizzleState }) => {
                             labels={["Username", "Password", "Participant Address", "Participant Type"]}
                         />
                     </p>
+                    <h3>Create Product</h3>
+                    <ContractForm
+                        drizzle={drizzle}
+                        drizzleState={drizzleState}
+                        contract="supplyChain"
+                        method="createProduct"
+                        labels={["Owner ID", "Model Number", "Part Number", "Serial Number", "Product Cost"]}
+                    />
                 </div>
+
                 <div>
-                    <h1>Total Supply</h1>
+                    <p>
+                    <strong>Total Supply: </strong>
                     <ContractData
                         drizzle={drizzle}
                         drizzleState={drizzleState}
@@ -41,6 +51,7 @@ export default ({ drizzle, drizzleState }) => {
                         methodArgs={[drizzleState.accounts[0]]}
                         
                     />
+                    </p>
                 </div>
 
                 <div>
@@ -55,16 +66,28 @@ export default ({ drizzle, drizzleState }) => {
                 </div>
                 <div>
                     <p>
-                        <strong>My Balance: </strong>
+                        <strong>{drizzleState.accounts[3]} Balance: </strong>
                         <ContractData
-                            drizzle={drizzle}
-                            drizzleState={drizzleState}
-                            contract="ERC20Token"
-                            method="balanceOf"
-                            methodArgs={[drizzleState.accounts[3]]}
-                        />
+                        drizzle={drizzle}
+                        drizzleState={drizzleState}
+                        contract="ERC20Token"
+                        method="balanceOf"
+                        methodArgs={[drizzleState.accounts[3]]}
+                        
+                    />
                     </p>
                 </div>
+
+                <div>
+                    <h2>Get Participant Details</h2>
+                   
+
+                    <h3>Get Product Details</h3>
+                    
+                    
+                </div>
+
+
 
             </div>
         </div>
