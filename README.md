@@ -8,10 +8,11 @@ Built using truffle and solidity
 
 ## Installation
 
-1. Install Truffle and Ganache CLI globally. If you prefer, the graphical version of Ganache works as well
+1. Install Truffle and Ganache CLI globally and dependencies for React. If you prefer, the graphical version of Ganache works as well
 ```javascript
 npm install -g truffle
 npm install -g ganache-cli
+npm install //Installs React node_modules
 ```
 
 2. Download the box. This also takes care of installing the necessary depenencies.
