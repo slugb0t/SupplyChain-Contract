@@ -2,6 +2,9 @@
 Supply chain contract with front end web page using Drizzle
 
 Create Product Details and Particpants who will be stored onto the blockchain ledger
+Built using truffle and solidity
+![Front End](./frontEndDisplay.PNG)
+
 
 ## Installation
 
