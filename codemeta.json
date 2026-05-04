@@ -1,0 +1,32 @@
+{
+  "name": "SupplyChain-Contract",
+  "@context": "https://w3id.org/codemeta/3.0",
+  "author": [
+    {
+      "affiliation": {
+        "name": "FAIR Data Innovations Hub",
+        "type": "Organization"
+      },
+      "email": "wheresdorian@gmail.com",
+      "familyName": "Portillo",
+      "id": "_:author_1",
+      "givenName": "Dorian",
+      "type": "Person"
+    }
+  ],
+  "codeRepository": "https://github.com/slugb0t/SupplyChain-Contract",
+  "dateCreated": "2021-07-15",
+  "description": "Supply chain using Ganache, Truffle and React.",
+  "issueTracker": "https://github.com/slugb0t/SupplyChain-Contract/issues",
+  "keywords": [
+    "ethereum"
+  ],
+  "license": "https://spdx.org/licenses/MIT",
+  "programmingLanguage": [
+    "Solidity",
+    "JavaScript",
+    "HTML",
+    "CSS"
+  ],
+  "type": "SoftwareSourceCode"
+}
