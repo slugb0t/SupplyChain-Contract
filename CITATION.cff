@@ -1,17 +1,10 @@
-title: SupplyChain-Contract
+title: Test
 authors:
-  - given-names: Dorian
-    family-names: Portillo
-    email: wheresdorian@gmail.com
-    affiliation: FAIR Data Innovations Hub
+  - given-names: Testing
 cff-version: 1.2.0
 message: If you use this software, please cite it using the metadata from this file.
 type: software
-abstract: Supply chain using Ganache, Truffle and React.
+abstract: input
 keywords:
-  - ethereum
+  - Keyword
 license: MIT
-repository-code: https://github.com/slugb0t/SupplyChain-Contract
-doi: 10.5281/zenodo.20026641
-date-released: '2026-05-04'
-version: '1.0'
